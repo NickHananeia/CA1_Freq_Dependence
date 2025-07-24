@@ -1,0 +1,123 @@
+// CA1 Pyramidal cell template
+// Geometry: 17 sections
+// Active properties: from Migliore et al., 2018
+// Morphology: from Cutsuridis et al., 2009
+// Author: M. Tomko
+// axon, lm cond original
+
+
+
+proc distribute_distance(){local x localobj sl
+  strdef stmp, distfunc, mech
+
+  sl = $o1
+  mech = $s2
+  distfunc = $s3
+  cellList.o(0).soma distance(0, 0.5)
+  sprint(distfunc, "%%s %s(%%f) = %s", mech, distfunc)
+  forsec sl for(x, 0) {
+    sprint(stmp, distfunc, secname(), x, distance(x))
+    execute(stmp)
+  }
+}
+
+forsec cellList.o(0).regoblique1{
+	insert hd
+	insert kad
+}
+forsec cellList.o(0).regoblique2{
+	insert hd
+	insert kad
+}
+forsec cellList.o(0).regoblique3{
+	insert hd
+	insert kad
+}
+forsec cellList.o(0).regbasalprox{
+	insert hd
+	insert kad
+}
+forsec cellList.o(0).regbasaldist{
+	insert hd
+	insert kad
+}
+forsec cellList.o(0).regsoma{
+	insert hd
+}
+forsec cellList.o(0).regtrunkdist{
+	insert hd
+	insert kad
+	gkabar_kad = 0.2
+}
+forsec cellList.o(0).regtrunkmed{
+	insert hd
+	insert kad
+	gkabar_kad = 0.15
+}
+forsec cellList.o(0).regtrunkprox{
+	insert hd
+	insert kad
+	gkabar_kad = 0.1
+}
+
+forsec cellList.o(0).regtuftthin{
+	insert hd
+	insert kad
+}
+forsec cellList.o(0).regtuftmed{
+	insert hd
+	insert kad
+}
+forsec cellList.o(0).regtuftthick{
+	insert hd
+	insert kad
+}
+
+distribute_distance(cellList.o(0).regoblique1, "ghdbar_hd", "(1. + 3./100. * %.17g)*1.9042409723832741e-05")
+distribute_distance(cellList.o(0).regoblique1, "e_pas", "(-65.726902768520958-5*%.17g/150)")
+
+distribute_distance(cellList.o(0).regoblique2, "ghdbar_hd", "(1. + 3./100. * %.17g)*1.9042409723832741e-05")
+distribute_distance(cellList.o(0).regoblique2, "e_pas", "(-65.726902768520958-5*%.17g/150)")
+
+
+distribute_distance(cellList.o(0).regoblique3, "ghdbar_hd", "(1. + 3./100. * %.17g)*1.9042409723832741e-05")
+distribute_distance(cellList.o(0).regoblique3, "e_pas", "(-65.726902768520958-5*%.17g/150)")
+
+distribute_distance(cellList.o(0).regtrunkdist, "ghdbar_hd", "(1. + 3./100. * %.17g)*1.9042409723832741e-05")
+distribute_distance(cellList.o(0).regtrunkdist, "e_pas", "(-65.726902768520958-5*%.17g/150)")
+
+distribute_distance(cellList.o(0).regtrunkmed, "ghdbar_hd", "(1. + 3./100. * %.17g)*1.9042409723832741e-05")
+distribute_distance(cellList.o(0).regtrunkmed, "e_pas", "(-65.726902768520958-5*%.17g/150)")
+
+
+distribute_distance(cellList.o(0).regtrunkprox, "ghdbar_hd", "(1. + 3./100. * %.17g)*1.9042409723832741e-05")
+distribute_distance(cellList.o(0).regtrunkprox, "e_pas", "(-65.726902768520958-5*%.17g/150)")
+
+distribute_distance(cellList.o(0).regtuftthin, "ghdbar_hd", "(1. + 3./100. * %.17g)*1.9042409723832741e-05")
+distribute_distance(cellList.o(0).regtuftthin, "e_pas", "(-65.726902768520958-5*%.17g/150)")
+distribute_distance(cellList.o(0).regtuftthin, "gkabar_kad", "(15./(1. + exp((300-%.17g)/50)))* 0.012921529390557651 ")
+
+distribute_distance(cellList.o(0).regtuftmed, "ghdbar_hd", "(1. + 3./100. * %.17g)*1.9042409723832741e-05")
+distribute_distance(cellList.o(0).regtuftmed, "e_pas", "(-65.726902768520958-5*%.17g/150)")
+distribute_distance(cellList.o(0).regtuftmed, "gkabar_kad", "(15./(1. + exp((300-%.17g)/50)))* 0.012921529390557651 ")
+
+distribute_distance(cellList.o(0).regtuftthick, "ghdbar_hd", "(1. + 3./100. * %.17g)*1.9042409723832741e-05")
+distribute_distance(cellList.o(0).regtuftthick, "e_pas", "(-65.726902768520958-5*%.17g/150)")
+distribute_distance(cellList.o(0).regtuftthick, "gkabar_kad", "(15./(1. + exp((300-%.17g)/50)))* 0.012921529390557651 ")
+
+
+
+distribute_distance(cellList.o(0).regbasalprox, "ghdbar_hd", "(1. + 3./100. * %.17g)*1.9042409723832741e-05")
+distribute_distance(cellList.o(0).regbasalprox, "e_pas", "(-65.726902768520958-5*%.17g/150)")
+distribute_distance(cellList.o(0).regbasalprox, "gkabar_kad", "(15./(1. + exp((300-%.17g)/50)))*0.012921529390557651")
+distribute_distance(cellList.o(0).regbasaldist, "ghdbar_hd", "(1. + 3./100. * %.17g)*1.9042409723832741e-05")
+distribute_distance(cellList.o(0).regbasaldist, "e_pas", "(-65.726902768520958-5*%.17g/150)")
+distribute_distance(cellList.o(0).regbasaldist, "gkabar_kad", "(15./(1. + exp((300-%.17g)/50)))*0.012921529390557651")
+distribute_distance(cellList.o(0).regsoma, "ghdbar_hd", "(1. + 3./100. * %.17g)*1.9042409723832741e-05")
+distribute_distance(cellList.o(0).regsoma, "e_pas", "(-65.726902768520958-5*%.17g/150)")
+
+
+
+
+
+
