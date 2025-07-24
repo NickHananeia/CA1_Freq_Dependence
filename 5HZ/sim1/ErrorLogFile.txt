@@ -1,0 +1,9 @@
+Cannot find executable python3 or python
+Segmentation violation
+No backtrace info available.
+c:\nrn\bin\nrniv.exe: Aborting.
+ in neuron_runthis.hoc near line 97
+ init()
+       ^
+        finitialize(-70)
+      init()

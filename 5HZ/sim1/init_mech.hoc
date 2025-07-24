@@ -1,0 +1,346 @@
+
+
+// ***** Insert mechanisms *****
+forsec cellList.o(0).allreg {
+insert k_ion
+ek = -90
+insert na_ion
+ena = 50
+insert xtra
+insert extracellular
+}
+
+forsec cellList.o(0).regaxon {
+insert nax
+gbar_nax = 0.5
+insert kdr
+gkdrbar_kdr = 0.04
+insert kmb
+gbar_kmb = 0.02
+insert kap
+gkabar_kap = 0.44
+insert pas
+cm = 1
+Ra = 85.2024
+g_pas = 0.00012898
+e_pas = -79.9171
+}
+
+forsec cellList.o(0).regbasaldist {
+insert kdr
+gkdrbar_kdr = 0.00430365
+insert nax
+gbar_nax = 0.0382806
+insert cal
+gcalbar_cal = 8.0325e-06
+insert can
+gcanbar_can = 2.26189e-06
+insert cat
+gcatbar_cat = 1.18495e-06
+insert kca
+gbar_kca = 9.03114e-05
+insert cagk
+gbar_cagk = 4.48201e-05
+insert cacum
+insert pas
+cm = 1
+Ra = 115.396
+g_pas = 9.03139e-05
+}
+
+forsec cellList.o(0).regbasalprox {
+insert kdr
+gkdrbar_kdr = 0.00430365
+insert nax
+gbar_nax = 0.0382806
+insert cal
+gcalbar_cal = 8.0325e-06
+insert can
+gcanbar_can = 2.26189e-06
+insert cat
+gcatbar_cat = 1.18495e-06
+insert kca
+gbar_kca = 9.03114e-05
+insert cagk
+gbar_cagk = 4.48201e-05
+insert cacum
+insert pas
+cm = 1
+Ra = 115.396
+g_pas = 9.03139e-05
+}
+
+forsec cellList.o(0).regmyelin {
+insert pas
+cm = 0.01
+g_pas = 8.88889e-07
+e_pas = -79.9171
+Ra = 60
+}
+
+forsec cellList.o(0).regoblique1 {
+insert kad
+gkabar_kad = 0.1
+insert kdr
+gkdrbar_kdr = 0.00430365
+insert nax
+gbar_nax = 0.035
+insert cal
+gcalbar_cal = 8.0325e-06
+insert can
+gcanbar_can = 2.26189e-06
+insert cat
+gcatbar_cat = 1.18495e-06
+insert kca
+gbar_kca = 9.03114e-05
+insert cagk
+gbar_cagk = 4.48201e-05
+insert cacum
+insert pas
+cm = 1
+Ra = 115.396
+g_pas = 9.03139e-05
+}
+
+forsec cellList.o(0).regoblique2 {
+insert kad
+gkabar_kad = 0.1
+insert kdr
+gkdrbar_kdr = 0.002
+insert nax
+gbar_nax = 0.038
+insert cal
+gcalbar_cal = 8.0325e-06
+insert can
+gcanbar_can = 2.26189e-06
+insert cat
+gcatbar_cat = 1.18495e-06
+insert kca
+gbar_kca = 9.03114e-05
+insert cagk
+gbar_cagk = 4.48201e-05
+insert cacum
+insert pas
+cm = 1
+Ra = 115.396
+g_pas = 9.03139e-05
+}
+
+forsec cellList.o(0).regoblique3 {
+insert kad
+gkabar_kad = 0.15
+insert kdr
+gkdrbar_kdr = 0.00430365
+insert nax
+gbar_nax = 0.035
+insert cal
+gcalbar_cal = 8.0325e-06
+insert can
+gcanbar_can = 2.26189e-06
+insert cat
+gcatbar_cat = 1.18495e-06
+insert kca
+gbar_kca = 9.03114e-05
+insert cagk
+gbar_cagk = 4.48201e-05
+insert cacum
+insert pas
+cm = 1
+Ra = 115.396
+g_pas = 9.03139e-05
+}
+
+forsec cellList.o(0).regsoma {
+insert kap
+gkabar_kap = 0.0075
+insert kmb
+gbar_kmb = 0.001
+insert kdr
+gkdrbar_kdr = 0.0015
+insert nax
+gbar_nax = 0.035
+insert cal
+gcalbar_cal = 0.0005
+insert can
+gcanbar_can = 2.26189e-06
+insert cat
+gcatbar_cat = 5e-05
+insert kca
+gbar_kca = 0.0015
+insert cagk
+gbar_cagk = 4.48201e-05
+insert cacum
+insert pas
+cm = 1
+Ra = 115.396
+g_pas = 9.03139e-05
+}
+
+forsec cellList.o(0).regtrunkdist {
+insert kdr
+gkdrbar_kdr = 0.02
+insert nax
+gbar_nax = 0.02
+insert cal
+gcalbar_cal = 8.0325e-06
+insert can
+gcanbar_can = 2.26189e-06
+insert cat
+gcatbar_cat = 1.18495e-06
+insert kca
+gbar_kca = 9.03114e-05
+insert cagk
+gbar_cagk = 4.48201e-05
+insert cacum
+insert pas
+cm = 1
+Ra = 115.396
+g_pas = 9.03139e-05
+insert kad
+gkabar_kad = 0.2
+}
+
+forsec cellList.o(0).regtrunkmed {
+insert kdr
+gkdrbar_kdr = 0.02
+insert nax
+gbar_nax = 0.02
+insert cal
+gcalbar_cal = 8.0325e-06
+insert can
+gcanbar_can = 2.26189e-06
+insert cat
+gcatbar_cat = 1.18495e-06
+insert kca
+gbar_kca = 9.03114e-05
+insert cagk
+gbar_cagk = 4.48201e-05
+insert cacum
+insert pas
+cm = 1
+Ra = 115.396
+g_pas = 9.03139e-05
+insert kad
+gkabar_kad = 0.15
+}
+
+forsec cellList.o(0).regtrunkprox {
+insert kdr
+gkdrbar_kdr = 0.02
+insert nax
+gbar_nax = 0.02
+insert cal
+gcalbar_cal = 8.0325e-06
+insert can
+gcanbar_can = 2.26189e-06
+insert cat
+gcatbar_cat = 1.18495e-06
+insert kca
+gbar_kca = 9.03114e-05
+insert cagk
+gbar_cagk = 4.48201e-05
+insert cacum
+insert pas
+cm = 1
+Ra = 115.396
+g_pas = 9.03139e-05
+insert kad
+gkabar_kad = 0.1
+}
+
+forsec cellList.o(0).regtuftmed {
+insert kdr
+gkdrbar_kdr = 0.00430365
+insert nax
+gbar_nax = 0.0382806
+insert cal
+gcalbar_cal = 8.0325e-06
+insert can
+gcanbar_can = 2.26189e-06
+insert cat
+gcatbar_cat = 1.18495e-06
+insert kca
+gbar_kca = 9.03114e-05
+insert cagk
+gbar_cagk = 4.48201e-05
+insert cacum
+insert pas
+cm = 1
+Ra = 115.396
+g_pas = 9.03139e-05
+}
+
+forsec cellList.o(0).regtuftthick {
+insert kdr
+gkdrbar_kdr = 0.00430365
+insert nax
+gbar_nax = 0.0382806
+insert cal
+gcalbar_cal = 8.0325e-06
+insert can
+gcanbar_can = 2.26189e-06
+insert cat
+gcatbar_cat = 1.18495e-06
+insert kca
+gbar_kca = 9.03114e-05
+insert cagk
+gbar_cagk = 4.48201e-05
+insert cacum
+insert pas
+cm = 1
+Ra = 115.396
+g_pas = 9.03139e-05
+}
+
+forsec cellList.o(0).regtuftthin {
+insert kdr
+gkdrbar_kdr = 0.00430365
+insert nax
+gbar_nax = 0.0382806
+insert cal
+gcalbar_cal = 8.0325e-06
+insert can
+gcanbar_can = 2.26189e-06
+insert cat
+gcatbar_cat = 1.18495e-06
+insert kca
+gbar_kca = 9.03114e-05
+insert cagk
+gbar_cagk = 4.48201e-05
+insert cacum
+insert pas
+cm = 1
+Ra = 115.396
+g_pas = 9.03139e-05
+}
+
+forsec cellList.o(0).regunmyelin {
+insert nax
+gbar_nax = 0.035
+insert kdr
+gkdrbar_kdr = 0.011664
+insert kmb
+gbar_kmb = 0.0264739
+insert kap
+gkabar_kap = 0.163694
+insert pas
+cm = 1
+Ra = 85.2024
+g_pas = 0.00012898
+e_pas = -79.9171
+}
+
+
+
+// ***** Define nseg for all cells *****
+proc make_nseg() {
+for CELLINDEX = 0, cellList.count -1 {
+if (cellList.o(CELLINDEX).is_artificial == 0) {
+geom_nseg(0.1,500)
+}
+}
+
+}
+
+// ***** Now adjust number of segments *****
+make_nseg()

@@ -1,0 +1,260 @@
+failed: c:\nrn\mingw\usr\bin\bash c:/nrn/bin/nrnpyenv.sh  --NEURON_HOME=c:/nrn
+	1 
+	v at location 0.5000 of section 0 of cell 0 
+	Vector[4] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_1_1528_1 (cell 0) 
+	Vector[5] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_2_1694_1 (cell 0) 
+	Vector[6] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_3_2791_1 (cell 0) 
+	Vector[7] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_4_2868_1 (cell 0) 
+	Vector[8] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_5_1588_1 (cell 0) 
+	Vector[9] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_6_1513_1 (cell 0) 
+	Vector[10] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_7_2754_1 (cell 0) 
+	Vector[11] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_8_1598_1 (cell 0) 
+	Vector[12] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_9_2966_1 (cell 0) 
+	Vector[13] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_10_2915_1 (cell 0) 
+	Vector[14] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_11_1518_1 (cell 0) 
+	Vector[15] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_12_1508_1 (cell 0) 
+	Vector[16] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_13_2631_1 (cell 0) 
+	Vector[17] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_14_2872_1 (cell 0) 
+	Vector[18] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_15_1670_1 (cell 0) 
+	Vector[19] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_16_1734_1 (cell 0) 
+	Vector[20] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_17_2890_1 (cell 0) 
+	Vector[21] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_18_2752_1 (cell 0) 
+	Vector[22] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_19_1255_1 (cell 0) 
+	Vector[23] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_20_1259_1 (cell 0) 
+	Vector[24] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_21_1356_1 (cell 0) 
+	Vector[25] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_22_1336_1 (cell 0) 
+	Vector[26] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_23_1292_1 (cell 0) 
+	Vector[27] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_24_1226_1 (cell 0) 
+	Vector[28] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_25_1339_1 (cell 0) 
+	Vector[29] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_26_1328_1 (cell 0) 
+	Vector[30] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_27_1246_1 (cell 0) 
+	Vector[31] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_28_1276_1 (cell 0) 
+	Vector[32] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_29_1225_1 (cell 0) 
+	Vector[33] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_30_1342_1 (cell 0) 
+	Vector[34] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_31_1253_1 (cell 0) 
+	Vector[35] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_32_1244_1 (cell 0) 
+	Vector[36] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_33_1337_1 (cell 0) 
+	Vector[37] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_34_1127_1 (cell 0) 
+	Vector[38] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_35_1128_1 (cell 0) 
+	Vector[39] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_36_1073_1 (cell 0) 
+	Vector[40] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_37_1136_1 (cell 0) 
+	Vector[41] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_38_1085_1 (cell 0) 
+	Vector[42] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_39_1089_1 (cell 0) 
+	Vector[43] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_40_1071_1 (cell 0) 
+	Vector[44] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_41_1194_1 (cell 0) 
+	Vector[45] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_42_1133_1 (cell 0) 
+	Vector[46] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_43_1117_1 (cell 0) 
+	Vector[47] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_44_1154_1 (cell 0) 
+	Vector[48] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_45_1142_1 (cell 0) 
+	Vector[49] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_46_1155_1 (cell 0) 
+	Vector[50] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_47_1149_1 (cell 0) 
+	Vector[51] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_48_1072_1 (cell 0) 
+	Vector[52] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_49_933_1 (cell 0) 
+	Vector[53] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_50_918_1 (cell 0) 
+	Vector[54] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_51_953_1 (cell 0) 
+	Vector[55] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_52_1052_1 (cell 0) 
+	Vector[56] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_53_946_1 (cell 0) 
+	Vector[57] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_54_967_1 (cell 0) 
+	Vector[58] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_55_932_1 (cell 0) 
+	Vector[59] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_56_1017_1 (cell 0) 
+	Vector[60] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_57_997_1 (cell 0) 
+	Vector[61] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_58_1003_1 (cell 0) 
+	Vector[62] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_59_951_1 (cell 0) 
+	Vector[63] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_60_1001_1 (cell 0) 
+	Vector[64] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_61_1034_1 (cell 0) 
+	Vector[65] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_62_977_1 (cell 0) 
+	Vector[66] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_63_973_1 (cell 0) 
+	Vector[67] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_64_301_1 (cell 0) 
+	Vector[68] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_65_377_1 (cell 0) 
+	Vector[69] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_66_385_1 (cell 0) 
+	Vector[70] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_67_304_1 (cell 0) 
+	Vector[71] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_68_220_1 (cell 0) 
+	Vector[72] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_69_346_1 (cell 0) 
+	Vector[73] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_70_347_1 (cell 0) 
+	Vector[74] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_71_579_1 (cell 0) 
+	Vector[75] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_72_862_1 (cell 0) 
+	Vector[76] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_73_808_1 (cell 0) 
+	Vector[77] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_74_475_1 (cell 0) 
+	Vector[78] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_75_550_1 (cell 0) 
+	Vector[79] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_76_456_1 (cell 0) 
+	Vector[80] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_77_734_1 (cell 0) 
+	Vector[81] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_78_555_1 (cell 0) 
+	Vector[82] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_79_538_1 (cell 0) 
+	Vector[83] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_80_440_1 (cell 0) 
+	Vector[84] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_81_658_1 (cell 0) 
+	Vector[85] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_82_830_1 (cell 0) 
+	Vector[86] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_83_557_1 (cell 0) 
+	Vector[87] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_84_597_1 (cell 0) 
+	Vector[88] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_85_778_1 (cell 0) 
+	Vector[89] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_86_858_1 (cell 0) 
+	Vector[90] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_87_624_1 (cell 0) 
+	Vector[91] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_88_871_1 (cell 0) 
+	Vector[92] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_89_463_1 (cell 0) 
+	Vector[93] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_90_788_1 (cell 0) 
+	Vector[94] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_91_797_1 (cell 0) 
+	Vector[95] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_92_697_1 (cell 0) 
+	Vector[96] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_93_880_1 (cell 0) 
+	Vector[97] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_94_647_1 (cell 0) 
+	Vector[98] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_95_583_1 (cell 0) 
+	Vector[99] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_96_800_1 (cell 0) 
+	Vector[100] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_97_519_1 (cell 0) 
+	Vector[101] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_98_767_1 (cell 0) 
+	Vector[102] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_99_578_1 (cell 0) 
+	Vector[103] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_100_570_1 (cell 0) 
+	Vector[104] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_101_448_1 (cell 0) 
+	Vector[105] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_102_565_1 (cell 0) 
+	Vector[106] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_103_670_1 (cell 0) 
+	Vector[107] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_104_759_1 (cell 0) 
+	Vector[108] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_105_595_1 (cell 0) 
+	Vector[109] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_106_498_1 (cell 0) 
+	Vector[110] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_107_707_1 (cell 0) 
+	Vector[111] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_108_835_1 (cell 0) 
+	Vector[112] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_109_774_1 (cell 0) 
+	Vector[113] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_110_844_1 (cell 0) 
+	Vector[114] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_111_820_1 (cell 0) 
+	Vector[115] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_112_857_1 (cell 0) 
+	Vector[116] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_113_562_1 (cell 0) 
+	Vector[117] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_114_666_1 (cell 0) 
+	Vector[118] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_115_469_1 (cell 0) 
+	Vector[119] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_116_480_1 (cell 0) 
+	Vector[120] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_117_644_1 (cell 0) 
+	Vector[121] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_118_413_1 (cell 0) 
+	Vector[122] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_119_590_1 (cell 0) 
+	Vector[123] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_120_864_1 (cell 0) 
+	Vector[124] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_121_660_1 (cell 0) 
+	Vector[125] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_122_600_1 (cell 0) 
+	Vector[126] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_123_687_1 (cell 0) 
+	Vector[127] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_124_527_1 (cell 0) 
+	Vector[128] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_125_903_1 (cell 0) 
+	Vector[129] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_126_520_1 (cell 0) 
+	Vector[130] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_127_454_1 (cell 0) 
+	Vector[131] 
+	w of Syn4P Point Process with tag tag_1_Syn4P_128_588_1 (cell 0) 
+	Vector[132] 
