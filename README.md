@@ -1,7 +1,9 @@
 # CA1_Freq_Dependence
 Demonstration of TMS frequency dependence from Galanis et al. paper.
 
-To run, compile mod files in lib_mech.
+Base simulation requires NEURON newer than version 8.0 and protocol generation and analytics require MATLAB.
+
+To run, compile mod files in lib_mech, and then execute the script init_simulations.m
 
 Then, run the run_everything_TMS.bat file (if using Windows) to run the 3 simulations. Each has the same synapse distribution. Lower frequencies will take longer to run (1Hz aroud 6-10 hours).
 
@@ -11,4 +13,3 @@ After simulations have concluded, a trace of weight values for each synapse for 
 
 Final weights can be visualized by running plot_weights_distance.m in each simulation folder. A plot of weight values with distances will be provided, and the averages for each synapse category will be printed in the terminal.
 
-Base simulation requires NEURON newer than version 8.0 and analytics code requires MATLAB.
